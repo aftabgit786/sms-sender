@@ -1,6 +1,7 @@
 from twilio.rest import Client
 from keys import auth_token, account_sid
 
+
 client = Client(account_sid, auth_token)
 
 body = input("Please enter the SMS content: ")
